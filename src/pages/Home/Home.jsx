@@ -14,9 +14,11 @@ const Home = () => {
           <div className="text">
             <div className="webdots-and-works">
               <h1 className="webdots">WebDots</h1>
-              {/* <Link to="/works" className="home-works">
+              <Link to="/works" className="home-works">
+                View our
+                <br />
                 Works
-              </Link> */}
+              </Link>
             </div>
             <div className="digital-agency">
               <h2>Digital Agency</h2>

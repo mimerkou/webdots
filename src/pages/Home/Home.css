@@ -11,6 +11,8 @@
   display: flex;
   flex-direction: column;
   padding-right: 3rem;
+  /* border-left: 3px solid #e00037;
+  padding-left: 2rem; */
 }
 
 .right {
@@ -52,11 +54,12 @@
   font-weight: 400;
 }
 
-/* .home-works {
+.home-works {
   border-radius: 50%;
   border: 2px solid #e00037;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,6 +67,7 @@
   margin-left: 4rem;
   color: #e00037;
   text-decoration: none;
+  text-align: center;
   animation: 2s circle infinite;
   font-size: 1.5rem;
 }
@@ -78,7 +82,7 @@
   100% {
     transform: scale(1);
   }
-} */
+}
 
 .digital-agency h2 {
   font-size: 4.5rem;
@@ -151,6 +155,20 @@
     justify-content: center;
     align-items: center;
   }
+
+  .home-works {
+    display: none;
+  }
+
+  /* for works button */
+  /* .webdots-and-works {
+    align-self: flex-start;
+  }
+
+  .digital-agency {
+    align-self: flex-start;
+  } */
+  /* end for works button */
 
   .description p {
     text-align: center;
