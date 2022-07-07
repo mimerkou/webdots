@@ -5,7 +5,7 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 2rem 20rem;
 
   @media screen and (max-width: 1040px) {

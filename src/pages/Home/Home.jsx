@@ -31,7 +31,7 @@ const Home = () => {
           <Text>
             <WebdotsAndWorks>
               <Webdots>WebDots</Webdots>
-              <Link to="/works" className="home-works">
+              <Link to="/our-works" className="home-works">
                 View our
                 <br />
                 Works

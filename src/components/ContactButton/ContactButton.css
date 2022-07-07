@@ -1,0 +1,32 @@
+.contact-btn {
+  padding: 1.2rem 3rem;
+  font-size: 1.6rem;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #e00037;
+  background: #e00037;
+  color: #fff;
+  border-radius: 5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+  background: #fff;
+  color: #e00037;
+}
+
+.contact-btn.light {
+  background: #e00037;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-btn.light:hover {
+  border: 1px solid #e00037;
+  background: #fff;
+  color: #e00037;
+}

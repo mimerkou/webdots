@@ -1,0 +1,67 @@
+.navbar {
+  background: #000;
+  height: 8rem;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  /* border-bottom: 1px solid #0079c0; */
+  z-index: 100;
+}
+
+.logo-image-container {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+}
+
+.logo-image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-menu > div {
+  margin-left: 3rem;
+}
+
+.open-icon {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone-icon {
+  color: #e00037;
+  font-size: 2.75rem;
+  margin-right: 0.5rem;
+}
+
+.phone-text {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 980px) {
+  .phone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    display: none;
+  }
+}
