@@ -27,9 +27,7 @@ const Navbar = ({ toggle }) => {
           </ContactButton>
         </div>
 
-        <div className="open-icon">
-          <FaBars onClick={toggle} />
-        </div>
+        <div className="open-icon">{/* <FaBars onClick={toggle} /> */}</div>
       </div>
     </nav>
   );
