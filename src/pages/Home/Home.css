@@ -1,66 +1,3 @@
-/* .home-works-btn {
-  border-radius: 50%;
-  border: 2px solid #e00037;
-  width: 9rem;
-  height: 9rem;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: flex-end;
-  margin-left: 4rem;
-  color: #e00037;
-  text-decoration: none;
-  text-align: center;
-  animation: 2s circle infinite;
-  font-size: 1.5rem;
-}
-
-@keyframes circle {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.07);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.strategy,
-.design,
-.development,
-.marketing {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  color: #0079c0;
-}
-
-.strategy svg,
-.design svg,
-.development svg,
-.marketing svg {
-  font-size: 5rem;
-}
-
-.strategy p,
-.design p,
-.development p,
-.marketing p {
-  color: #fff;
-  font-size: 1.8rem;
-  margin-top: 1rem;
-}
-
-@media screen and (max-width: 1040px) {
-  .home-works-btn {
-    display: none;
-  }
-} */
-
 .home-container {
   display: flex;
   justify-content: center;
@@ -115,11 +52,11 @@
   font-weight: 400;
 }
 
-/* .home-works {
+.home-works {
   border-radius: 50%;
   border: 2px solid #e00037;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,6 +64,7 @@
   margin-left: 4rem;
   color: #e00037;
   text-decoration: none;
+  text-align: center;
   animation: 2s circle infinite;
   font-size: 1.5rem;
 }
@@ -141,7 +79,7 @@
   100% {
     transform: scale(1);
   }
-} */
+}
 
 .digital-agency h2 {
   font-size: 4.5rem;
@@ -213,6 +151,10 @@
   .text {
     justify-content: center;
     align-items: center;
+  }
+
+  .home-works {
+    display: none;
   }
 
   .description p {
