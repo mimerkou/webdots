@@ -6,7 +6,7 @@ import './Sidebar.css';
 const Sidebar = ({ isOpen, toggle }) => {
   return (
     <div
-      className={`${isOpen ? 'sidebar-container opened' : 'sidebar-container'}`}
+      className={`${isOpen ? 'sidebar-container' : 'sidebar-container opened'}`}
     >
       <div className="sidebar-wrapper">
         <FaTimes className="close-icon" onClick={toggle} />
