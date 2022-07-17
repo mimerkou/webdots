@@ -94,14 +94,12 @@
 }
 
 .home-links {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   font-size: 2rem;
   margin-top: 5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 3rem;
+  /* justify-items: start; */
 }
 
 .strategy,
@@ -140,6 +138,15 @@
 .right .image img {
   width: 100%;
   height: 100%;
+}
+
+.btn-who-we-are {
+  display: block;
+  margin-top: 5rem;
+  text-align: center;
+  width: 20rem;
+  justify-self: flex-start;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 1040px) {
@@ -195,6 +202,10 @@
   .right .image {
     width: 40rem;
     height: 40rem;
+  }
+
+  .btn-who-we-are {
+    margin: 5rem auto 0 auto;
   }
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import Home from './pages/Home/Home';
@@ -18,7 +19,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Navbar toggle={toggle} />
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Routes>

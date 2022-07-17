@@ -3,7 +3,7 @@
   z-index: 500;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.97);
+  background: rgba(0, 0, 0, 0.98);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,4 +52,10 @@
 
 .sidebar-link.active {
   color: #e00037;
+}
+
+@media screen and (max-width: 480px) {
+  .close-icon {
+    right: 2.5rem;
+  }
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './ContactButton.css';
+import './Button.css';
 
-const ContactButton = ({ path, darkBg, children }) => {
+const Button = ({ path, darkBg, children }) => {
   return (
     <Link
       className={`${darkBg ? 'contact-btn' : 'contact-btn light'}`}
@@ -13,4 +13,4 @@ const ContactButton = ({ path, darkBg, children }) => {
   );
 };
 
-export default ContactButton;
+export default Button;

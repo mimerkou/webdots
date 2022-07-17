@@ -15,6 +15,7 @@
   width: 5rem;
   height: 5rem;
   display: flex;
+  outline: none;
 }
 
 .logo-image-container img {
@@ -63,6 +64,12 @@
 @media screen and (max-width: 768px) {
   .contact {
     display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0 2.5rem;
   }
 }
 

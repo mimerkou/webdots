@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../assets/logo-small.png';
 import { Link } from 'react-router-dom';
 import { FaBars, FaMobileAlt } from 'react-icons/fa';
-import ContactButton from '../ContactButton/ContactButton';
+import Button from '../Button/Button';
 
 import './Navbar.css';
 
@@ -22,9 +22,9 @@ const Navbar = ({ toggle }) => {
         </div>
 
         <div className="contact">
-          <ContactButton path="/contact" darkBg={true}>
+          <Button path="/contact" darkBg={true}>
             Start a project
-          </ContactButton>
+          </Button>
         </div>
 
         <div className="open-icon">
